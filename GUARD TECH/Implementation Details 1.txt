@@ -1,0 +1,10 @@
+1. First Load the program codes of the transmitter, receiver and IOT codes into the modules.
+2. The transmitter module contains the rechargeable and reusable battery, voltage regulator, radio frequency transmitter(ESP8266 Microcontroller), vibration sensor and switch to ON and OFF the module.
+3. We load the program code to the ESP8266 Microcontroller using the USB Cable in the transmitter module. In that code we wrote about the vibration level, threshold level, current level values, Etc...
+4. The receiver module contains the Battery, LCD Device, Radio Frequency receiver(ESP8266 Microcontroller), Buzzer, IOT Module, Voltage Regulator, SPO2 Sensor(Blood Oxygen Level), Emergency Switch, Switch to ON and OFF the Module.
+5. We load the program code to the ESP8266 Microcontroller using the USB Cable in the receiver module. In that code we wrote about the Heart Rate, SPO2 Sensor(Blood Oxygen Level), Etc...
+6. We load the program code to the IOT Module. In that code contains the values of the Vibration value, Heart Rate value, Blood Oxygen value, emergency value.
+7. Once all the module setup has been finished, then On the Receiver module first it ON the LCD Device, microcontroller and IOT module. And after that ON the transmitter module.
+8. In the receiver module if you place the finger in SPO2 Sensor to shows the Heart rate and blood oxygen value. In the Transmitter module there is the vibration sensor will automatically detecting the vibration levels.
+9. And send to the receiver's IOT Modules when the vibration level value exceeds the threshold value it will automatically ON the Buzzer to alert the people, you also use the SOS option to extra safety.
+10. We also can see the heart rate value, vibration level value, blood oxygen value and emergency value in BLYNK IOT APP. It shows the values and in the continuous value in the graph, so we can analyse the past data also and compare with current data.

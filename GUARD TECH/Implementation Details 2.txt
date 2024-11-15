@@ -1,0 +1,20 @@
+1. Loading the Program Codes: Start by loading the IoT, transmitter, and receiver modules' program codes. By doing this, you can be confident that every module has the instructions it needs to operate properly.
+
+2. Transmitter Module Components: The transmitter module includes important components such as a rechargeable and reusable battery, a voltage regulator, a radio frequency transmitter (ESP8266 microcontroller), a vibration sensor, and an on/off switch.
+
+
+3. Programming the Transmitter Module: A USB cable is used to program the ESP8266 microcontroller in the transmitter module. The software code provides comprehensive instructions for the module's operation by including a number of factors, such as vibration levels, threshold values, and current values.
+
+4. Receiver Module Components: The receiver module has an emergency switch, a power switch, an LCD device, an IoT module, a voltage regulator, a SPO2 sensor for blood oxygen level measurement, a buzzer, an ESP8266 microcontroller, and a radio frequency receiver.
+
+5. Receiver Module Programming: Insert the program code into the ESP8266 microcontroller in the receiver module using a USB cable. In order to provide precise vital sign monitoring, this code concentrates on processing heart rate data and SPO2 sensor readings.
+
+6. Programming the IoT Module: Code that manages and transmits vital data, including blood oxygen levels, heart rate, vibration levels, and emergency signals, is programmed into the IoT module. This guarantees smooth communication between the modules of the transmitter and receiver.
+
+7. Module Activation: Turn on the receiver module first after configuring the other modules. The LCD gadget, microprocessor, and IoT module are all turned on by this action. The transmitter module should then be turned on to finish the system activation.
+
+8. SPO2 Sensor Functionality: The receiver module incorporates a SPO2 sensor that detects heart rate and blood oxygen levels. By touching the sensor, these results are shown on the LCD screen, allowing for real-time vital sign monitoring.
+
+9. Vibration Detection and Alert System: The vibration sensor in the transmitter module keeps an eye on the vibration levels all the time. The transmitter notifies the IoT module of the receiver if the vibration it detects is greater than the predetermined threshold. As a result, the receiver sounds a buzzer to notify others of the high vibration levels. For added safety precautions, there is also an SOS option.
+
+10. Data Visualization and Analysis with Blynk IoT App: A full platform for data monitoring and analysis is provided by the Blynk IoT app. In real time, users can examine blood oxygen levels, heart rate data, vibration levels, and emergency signals. The application presents these numbers in a continuous graph format so that users can monitor past data and contrast it with the readings that are now available. This feature makes it easier to do in-depth analysis and aids in the long-term identification of trends and patterns.
